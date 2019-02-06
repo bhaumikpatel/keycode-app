@@ -1,4 +1,4 @@
-# JavaScript Keycode → [keycode-app.surge.sh](http://keycode-app.surge.sh/) :ok_hand:
+# JavaScript Keycode → [keycode-app.surge.sh](https://keycode-app.surge.sh/) :ok_hand:
 
 A simple tool which can be used to visualize JavaScript keycodes on keyboard key press.
 
