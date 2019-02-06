@@ -9,6 +9,9 @@ class KeyCode extends Component {
   }
 
   setKeyCode(e) {
+    if (!e.metaKey) {
+      e.preventDefault();
+    }
     this.setState({
       keyCode: e.keyCode,
       key: e.key,
@@ -19,12 +22,17 @@ class KeyCode extends Component {
 
   render() {
     const { keyCode, key, which, code } = this.state;
-    let style = { fontSize: '20vw' };
+    let style = { fontSize: "20vw" };
     return (
       <React.Fragment>
         <div className="row">
           <div className="col p-3">
-            <h1 className="mx-auto text-center text-white align-middle" style={style}>{keyCode}</h1>
+            <h1
+              className="mx-auto text-center text-white align-middle"
+              style={style}
+            >
+              {keyCode}
+            </h1>
           </div>
         </div>
         {keyCode !== "Press key" && (

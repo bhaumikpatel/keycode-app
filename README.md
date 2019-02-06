@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# JavaScript Keycodes → [keycode-app.surge.sh](http://keycode-app.surge.sh/) :ok_hand:
+
+A simple tool which can be used to visualize JavaScript keycodes on keyboard key press.
 
 ## Available Scripts
 
