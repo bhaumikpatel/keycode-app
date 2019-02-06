@@ -13,7 +13,7 @@ class App extends Component {
         <Table />
         <div className="text-center text-white p-3 m-b-3">
         you can find the code on{" "}
-        <a href="https://github.com/bhaumikpatel/keycode-app" tartget="_blank">Github</a> fork
+        <a href="https://github.com/bhaumikpatel/keycode-app" target="_blank" rel="noopener noreferrer">Github</a> fork
         and suggest edits.
         </div>
       </div>
