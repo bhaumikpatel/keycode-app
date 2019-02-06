@@ -25,7 +25,7 @@ class KeyCode extends Component {
     let style = { fontSize: "20vw" };
     return (
       <React.Fragment>
-        <div className="row d-none d-sm-none d-md-block">
+        <div className="row d-none d-sm-none d-md-flex">
           <div className="col p-3">
             <h1
               className="mx-auto text-center text-white align-middle"
@@ -36,7 +36,7 @@ class KeyCode extends Component {
           </div>
         </div>
         {keyCode !== "Press key" && (
-          <div className="row d-none d-sm-none d-md-block">
+          <div className="row d-none d-sm-none d-md-flex">
             <div className="col">
               <div className="card border-primary text-center">
                 <div className="card-header bg-primary text-white">e.key</div>
